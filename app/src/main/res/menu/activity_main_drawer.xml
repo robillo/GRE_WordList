@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Barron's 800 GRE WordList">
+        <menu>
+            <item
+                android:id="@+id/Group1"
+                android:icon="@drawable/ten"
+                android:title="Group 1 (1-200)" />
+            <item
+                android:id="@+id/Group2"
+                android:icon="@drawable/ten"
+                android:title="Group 2 (201-400)" />
+            <item
+                android:id="@+id/Group3"
+                android:icon="@drawable/ten"
+                android:title="Group 3 (401-600)" />
+            <item
+                android:id="@+id/Group4"
+                android:icon="@drawable/ten"
+                android:title="Group 4 (601-800)" />
+        </menu>
+    </item>
+
+</menu>
