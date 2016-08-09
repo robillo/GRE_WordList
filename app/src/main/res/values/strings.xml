@@ -13,7 +13,7 @@
     <string name="m1"> to decrease; reduce</string>
     <string name="w2">2.abdicate</string>
     <string name="m2">to give up a position, right, or power</string>
-    <string name="w3">3.aberrant.</string>
+    <string name="w3">3.aberrant</string>
     <string name="m3">deviating from what is normal </string>
     <string name="w4">4.abeyance</string>
     <string name="m4">temporary suppression or suspension </string>
@@ -514,7 +514,7 @@
     <string name="m249">state of high spirits or liveliness; process of bubling as gas escapes</string>
     <string name="w250">250.effete</string>
     <string name="m250">depleted of vitality; over refined; decadent</string>
-    <string name="w251">2251.efficacy</string>
+    <string name="w251">251.efficacy</string>
     <string name="m251">effectiveness; efficiency</string>
     <string name="w252">252.effrontery</string>
     <string name="m252">shameless boldness; presumptuousness</string>
@@ -526,7 +526,7 @@
     <string name="m255">poem or song expressing lamentation</string>
     <string name="w256">256.elicit</string>
     <string name="m256">to provoke; draw out</string>
-    <string name="w257">25.elixir</string>
+    <string name="w257">257.elixir</string>
     <string name="m257">a sustance believed to have the power to cure ills</string>
     <string name="w258">258.Elysian</string>
     <string name="m258">delightful; blissful</string>
@@ -1645,5 +1645,6 @@
         "Material is the metaphor.\n\n"
     </string>
     <string name="madeby">Robin Kamboj\nAmit Kumar Singh\nAnubhav Nirwal</string>
+    <string name="GRE">There are several free and popular lists available on the internet from Barron, GRE Big Book.This list is a list of top 800 highest frequency GRE words, and we keep on adding important words.Try to learn as many words as you can.\n\nWhen you think about the GRE verbal section, what comes to mind?\n\nObscure vocabulary, right?\n\nFortunately though, the new GRE is definitely less dependent on vocabulary than the old GRE. But that doesn’t mean it doesn’t depend on vocabulary at all.\n\nTo score well on the verbal section, you should have a sound knowledge of vocabulary and must know how and when to use words. So, knowing the contextual usage of words is the key to score well on the verbal section.\n\nPreparing for the GRE verbal section can be cumbersome, especially when the time required to build a strong vocabulary is considered. There are various GRE word lists out there which have words anywhere from 333 to 3500. But to score well, should you learn all the 3500 GRE words in those lists? Not at all.\n\nIn fact, the questions on the new GRE rely often on the same words, and these frequently reappearing words provide you with a smaller subset of words to study.</string>
 
 </resources>
