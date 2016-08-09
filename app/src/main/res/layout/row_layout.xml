@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="@drawable/onee"
+            android:background="@drawable/twoe"
             android:weightSum="1">
             <TextView
                 android:id="@+id/word"
