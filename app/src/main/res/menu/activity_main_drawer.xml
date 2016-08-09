@@ -6,19 +6,19 @@
             <item
                 android:id="@+id/Group1"
                 android:icon="@drawable/ten"
-                android:title="Group 1 (1-200)" />
+                android:title="@string/G1" />
             <item
                 android:id="@+id/Group2"
                 android:icon="@drawable/ten"
-                android:title="Group 2 (201-400)" />
+                android:title="@string/G2" />
             <item
                 android:id="@+id/Group3"
                 android:icon="@drawable/ten"
-                android:title="Group 3 (401-600)" />
+                android:title="@string/G3" />
             <item
                 android:id="@+id/Group4"
                 android:icon="@drawable/ten"
-                android:title="Group 4 (601-800)" />
+                android:title="@string/G4" />
         </menu>
     </item>
 
