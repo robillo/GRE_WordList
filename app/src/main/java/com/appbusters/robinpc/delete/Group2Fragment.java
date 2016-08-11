@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +19,7 @@ import java.util.List;
  */
 public class Group2Fragment extends Fragment {
 
-    private RecyclerView recyclerview1;
+    private RecyclerView recyclerview2;
     private RecyclerView.LayoutManager mLayoutManager;
 
 
@@ -30,17 +31,18 @@ public class Group2Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_group1, container, false);
+        View v = inflater.inflate(R.layout.fragment_group2, container, false);
         List<Data> data = fill_with_data();
 
-        recyclerview1 = (RecyclerView) v.findViewById(R.id.recyclerview1);
-        recyclerview1.setHasFixedSize(true);
+        recyclerview2 = (RecyclerView) v.findViewById(R.id.recyclerview2);
+        recyclerview2.setHasFixedSize(true);
 
         mLayoutManager = new LinearLayoutManager(getActivity());
-        recyclerview1.setLayoutManager(mLayoutManager);
+        recyclerview2.setLayoutManager(mLayoutManager);
         Recycler_View_Adapter adapter = new Recycler_View_Adapter(data, getActivity().getApplication());
-        recyclerview1.setAdapter(adapter);
+        recyclerview2.setAdapter(adapter);
 
         return v;
     }

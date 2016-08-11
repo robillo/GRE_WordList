@@ -18,7 +18,7 @@ import java.util.List;
  */
 public class Group3Fragment extends Fragment {
 
-    private RecyclerView recyclerview1;
+    private RecyclerView recyclerview3;
     private RecyclerView.LayoutManager mLayoutManager;
 
 
@@ -31,16 +31,16 @@ public class Group3Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_group1, container, false);
+        View v = inflater.inflate(R.layout.fragment_group3, container, false);
         List<Data> data = fill_with_data();
 
-        recyclerview1 = (RecyclerView) v.findViewById(R.id.recyclerview1);
-        recyclerview1.setHasFixedSize(true);
+        recyclerview3 = (RecyclerView) v.findViewById(R.id.recyclerview3);
+        recyclerview3.setHasFixedSize(true);
 
         mLayoutManager = new LinearLayoutManager(getActivity());
-        recyclerview1.setLayoutManager(mLayoutManager);
+        recyclerview3.setLayoutManager(mLayoutManager);
         Recycler_View_Adapter adapter = new Recycler_View_Adapter(data, getActivity().getApplication());
-        recyclerview1.setAdapter(adapter);
+        recyclerview3.setAdapter(adapter);
 
         return v;
     }
