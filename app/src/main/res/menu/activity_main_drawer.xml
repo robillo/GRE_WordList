@@ -4,6 +4,18 @@
     <item android:title="Barron's 800 GRE WordList">
         <menu>
             <item
+                android:id="@+id/Categories"
+                android:icon="@drawable/ten"
+                android:title="Categories" />
+            <item
+                android:id="@+id/Groups"
+                android:icon="@drawable/ten"
+                android:title="Groups" />
+        </menu>
+    </item>
+    <item android:title="All Groups">
+        <menu>
+            <item
                 android:id="@+id/Group1"
                 android:icon="@drawable/ten"
                 android:title="@string/G1" />
